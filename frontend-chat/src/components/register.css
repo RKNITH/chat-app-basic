@@ -1,0 +1,45 @@
+.register-card{
+    width: 40%;
+    height: fit-content;
+    box-sizing: border-box;
+    margin-top: 5%;
+    padding: 10px;
+    background:rgba(0,0,0,0.1);
+    color: black;
+    box-shadow: 0 0 10px #a18c8c, 0 0 20px #ffffff;
+    transition: transform 0.5s;
+}
+
+.register-card:hover{
+    transform: scale(1.1);
+}
+
+.imageFile{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-profile-btn{
+    padding: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    height: fit-content;
+}
+
+.avatar{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+.modal-profile{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+}
